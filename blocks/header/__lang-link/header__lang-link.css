@@ -1,8 +1,6 @@
 .header__lang-link {
-  width: 30px;
-  height: 28px;
+  max-width: 30px;
   color: #fff;
-  display: flex;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -10,10 +8,13 @@
   text-decoration: none;
 }
 
+.header__lang-link:nth-child(1) {
+  margin-left: 18px;
+}
+
 @media screen and (max-width: 568px) {
   .header__lang-link {
-    width: 22px;
-    height: 20px;
+    max-width: 22px;
     font-size: 18px;
     line-height: 20px;
   }

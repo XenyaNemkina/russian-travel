@@ -11,7 +11,7 @@
 @media screen and (max-width: 1025px) {
   .header {
     max-width: 928px;
-    }
+  }
 }
 
 @media screen and (max-width: 770px) {
@@ -22,7 +22,7 @@
   }  
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 330px) {
   .header {
     max-width: 288px;
     width: calc(100% - 16px*2);

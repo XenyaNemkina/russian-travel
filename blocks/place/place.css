@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 460px calc(100% - 460px);
   gap: 48px 40px;
- }
+}
 
  @media screen and (max-width: 1124px) {
   .place {
@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 761px) {
   .place {
     grid-template-columns: 1fr;
     gap: 32px;
