@@ -35,7 +35,7 @@
 }
 
 .cover__item::before {
-  content: ' ';
+  content: " ";
   background: #2a2c2f;
   opacity: 0.3;
   position: absolute;
@@ -48,5 +48,5 @@
 }
 
 .cover__item:hover::before {
-  opacity: .8;
+  opacity: 0.8;
 }

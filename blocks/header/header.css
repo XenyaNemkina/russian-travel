@@ -1,11 +1,11 @@
 .header {
   max-width: 1184px;
-  width: calc(100% - 48px*2);
+  width: calc(100% - 48px * 2);
   box-sizing: border-box;
   margin: 0 48px;
   display: flex;
   justify-content: space-between;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 @media screen and (max-width: 1025px) {
@@ -17,15 +17,15 @@
 @media screen and (max-width: 770px) {
   .header {
     max-width: 720px;
-    width: calc(100% - 24px*2);
+    width: calc(100% - 24px * 2);
     margin: 0 24px;
-  }  
+  }
 }
 
 @media screen and (max-width: 330px) {
   .header {
     max-width: 288px;
-    width: calc(100% - 16px*2);
+    width: calc(100% - 16px * 2);
     margin: 0 16px;
-  }  
+  }
 }

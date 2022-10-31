@@ -5,7 +5,7 @@
   justify-content: space-between;
   box-sizing: border-box;
   margin: 0 48px 0;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   list-style: none;
 }
 
@@ -18,9 +18,9 @@
 @media screen and (max-width: 770px) {
   .footer {
     max-width: 720px;
-    width: calc(100% - 24px*2);
+    width: calc(100% - 24px * 2);
     margin: 0 24px 0;
-  }  
+  }
 }
 
 @media screen and (max-width: 674px) {
@@ -29,5 +29,5 @@
     margin-right: 16px;
     grid-template-columns: repeat(1, max-content);
     gap: 48px;
-  }  
+  }
 }

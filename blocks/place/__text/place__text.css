@@ -1,24 +1,10 @@
 .place__text {
-  max-width: 484px;
   display: flex;
   flex-direction: column;
 }
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 602px) {
   .place__text {
-    max-width: 456px;
-  }
-}
-
-@media screen and (max-width: 984px) {
-  .place__text {
-    max-width: 352px; 
-  }
-}
-
-@media screen and (max-width: 568px) {
-  .place__text {
-    max-width: 288px;
     margin: 0 16px;
   }
 }

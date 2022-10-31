@@ -10,5 +10,5 @@
     width: 100%;
     grid-template-columns: repeat(1, max-content);
     gap: 32px;
-  }  
+  }
 }

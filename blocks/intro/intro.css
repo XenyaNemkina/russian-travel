@@ -1,14 +1,15 @@
 .intro {
-  max-width: 690px;
-  margin: 0 auto 0 148px;
+  max-width: calc(100% - (148px + 442px));
+  margin: 0 442px 0 148px;
   display: flex;
   flex-direction: column;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 @media screen and (max-width: 1124px) {
- .intro {
-    margin: 0 auto 0 89px;
+  .intro {
+    max-width: calc(100% - (89px + 245px));
+    margin: 0 245px 0 89px;
   }
 }
 
@@ -20,7 +21,7 @@
 }
 
 @media screen and (max-width: 440px) {
-.intro {
+  .intro {
     max-width: calc(100% - 32px);
     margin: 0 16px;
   }

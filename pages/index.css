@@ -10,8 +10,6 @@
 /* link */
 @import url(../blocks/link/link.css);
 
-
-
 /* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -35,7 +33,7 @@
 
 /* photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__item/photo-grid__item.css); 
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /* places */
 @import url(../blocks/places/places.css);
@@ -59,5 +57,3 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-
